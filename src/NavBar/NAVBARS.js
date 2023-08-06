@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
-import HomePage from "../routes/Home/Home";
+import HomePage from "../routes/Home/HomePage";
 import CountactUSPage from "../routes/Contactus/Contactus.js";
 import AboiutUsPage from "../routes/Aboutus/Aboutus.js";
 function NavBars() {

@@ -1,4 +1,6 @@
 import React from "react";
+import { Link, Route, Routes } from "react-router-dom";
+
 function CountactUSPage() {
   return (
     <div className="CountactUSPage-Countaners">
@@ -9,9 +11,7 @@ function CountactUSPage() {
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  Home
-                </a>
+                <Link to="/Home" class="nav-link active">Home</Link>
               </li>
               <li class="nav-item mb-2">
                 <a href="#" class="nav-link p-0 text-body-secondary">
@@ -71,9 +71,9 @@ function CountactUSPage() {
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                {/* <link href="#" class="nav-link p-0 text-body-secondary">
                   Home
-                </a>
+                /> */}
               </li>
               <li class="nav-item mb-2">
                 <a href="#" class="nav-link p-0 text-body-secondary">
